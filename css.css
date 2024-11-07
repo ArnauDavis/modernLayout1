@@ -1,0 +1,299 @@
+:root{
+    font-size: 20px;
+
+    /*spacing*/
+    --margin-xxs: .25rem;
+    --margin-xs: .5rem;
+    --margin-s: .75rem;
+    --margin-m: 1rem;
+    --margin-l: 1.25rem;
+    --margin-xl: 1.75rem;
+    --margin-xxl: 2.5rem;
+    --margin-xxxl: 5rem;
+    --margin-xxxxl: 6rem;
+
+    /*colors*/
+    --gray: #353535;
+
+    /*font size*/
+    --font-xxs: .75rem;
+    --font-xs: 1rem;
+    --font-s: 1.25rem;
+    --font-m: 1.5rem;
+    --font-l: 2.25rem;
+    --font-xl: 3rem;
+    --font-xxl: 4rem;
+    --font-xxxl: 8rem;
+    --font-xxxxl: 10rem;
+    --font-xxxxxl: 12rem;
+}
+
+
+
+
+body{
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:var(--margin-xxs)
+}
+ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none
+    
+}
+
+
+
+
+#left, #middle, #right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+/*left side*/
+
+#left {
+    gap: var(--margin-l);
+}
+
+#leftTop{
+    display: flex;
+    flex-direction: column;
+}
+
+#leftTop h3{
+    margin-left: var(--margin-m)
+}
+
+
+
+#leftTop ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#leftTop ul li{
+    margin: var(--margin-xxs);
+    margin-left: none;
+    
+}
+
+#leftTop ul li span{
+    background: var(--gray);
+    width: var(--font-s);
+    height: var(--font-s);
+    display: inline-block;
+    border-radius: 100%;
+    margin: var(--margin-xxs);
+    
+}
+
+#leftTop ul li span + span{
+    height: var(--font-xs);
+    width: var(--font-xxxl);
+    border-radius: 10px;
+    
+}
+
+#leftMiddle {
+    display: flex;
+    flex-direction: column;
+}
+
+#leftMiddle span{
+    background: var(--gray);
+    width: var(--font-xxxxl);
+    height: var(--font-xs);
+    display: inline-block;
+    border-radius: 10px;
+    margin: var(--margin-s);
+}
+
+#leftBottom div{
+    height: var(--font-xxxxl);
+    width: var(--font-xxxxl);
+    background: var(--gray);
+    margin: var(--margin-s);
+    margin-top: var(--margin-xxl);
+    border-radius: 10px;
+}
+
+/*end of left side*/
+
+/*middle side*/
+
+#middle {
+    gap: var(--margin-xxl);
+}
+
+#middle h1{
+    text-align: center;
+}
+
+
+#middleTop section span {
+    display: inline-block;
+    height: var(--font-xl);
+    width: var(--font-xxxxxl);
+    background: var(--gray);
+    border-radius: 10px;
+    margin: var(--margin-xxs);
+}
+
+#middleTop section p {
+    height: var(--font-xl);
+    width: auto;
+    background: var(--gray);
+    border-radius: 10px;
+}
+
+#middleMiddle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+    
+}
+
+#middleLeft, #middleRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: var(--margin-xxs)
+    
+}
+
+#middleLeft span, #middleRight span{
+    display: inline-block;
+    height: var(--font-xl);
+    width: var(--font-xxxl);
+    background: var(--gray);
+    border-radius: 10px;
+    
+}
+
+#middleLeft p, #middleRight p{
+    display: block;
+    height: var(--font-xl);
+    width: auto;
+    background: var(--gray);
+    border-radius: 10px;
+    
+}
+
+#middleBottom {
+    display: flex;
+    flex-direction: column;
+}
+
+#middleBottom h3{
+    text-align: center;
+}
+
+#middleBottom section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+#middleBottom div{
+    height: var(--font-xxxl);
+    width: var(--margin-xxxxl);
+    background: var(--gray);
+    border-radius: 10px;
+    
+}
+
+
+
+
+/*end of middle side*/
+
+/*right side*/
+
+#right{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#rightTop {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+#rightTop h4{
+    display:block;
+    height:var(--font-xl);
+    width: var(--font-xl);
+    border-radius: 100%;
+    background: var(--gray);
+    align-self: flex-end;
+}
+
+#rightTop span{
+    background: var(--gray);
+    width: var(--font-xxxxl);
+    height: var(--font-xs);
+    display: block;
+    border-radius: 10px;
+    margin: var(--margin-s) 0;
+    
+}
+
+#rightMiddle div {
+    display: block;
+    height: var(--font-xl);
+    width: var(--font-xxxxl);
+    background: var(--gray);
+    border-radius: 10px;
+
+}
+
+#rightBottom span {
+    display: block;
+    height: var(--font-m);
+    width: var(--font-xxxxl);
+    background: var(--gray);
+    border-radius: 10px;
+    margin: var(--margin-s) 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    #right{
+        position: relative;
+        margin: auto;
+        margin-top: var(--margin-xxxxl);
+    }
+
+    #rightTop h4 {
+        align-self: center  ;
+    }
+
+    #middleBottom div {
+        width: var(--font-xxl)
+    }
+}
+
+/*end of right side*/
