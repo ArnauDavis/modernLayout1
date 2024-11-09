@@ -3,7 +3,7 @@ This is a modern, responsive layout template created using HTML and CSS. It feat
 columns that adjust for different screen sizes. The layout is divided into three main sections: left, middle, and right. Each section has been 
 carefully structured to provide an efficient, organized, and aesthetically pleasing design that adapts seamlessly to various devices.
 
-**Link to project:** 
+**Link to project:** https://modernlayoutone.netlify.app/
 
 
 <div style="height: 200px; overflow: hidden;">
