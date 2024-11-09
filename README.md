@@ -22,8 +22,8 @@ and encouraged a repetitive design that allowed for CSS to be reused across sect
 
 ## Optimizations
 I can admit I'm not happy that I had to use a media query to center the bottom section when viewed on smaller screens, as well as the "Tertiary Features" cards. There are also some cases where I repeated CSS,
-with more time, I could potentially sit down and catch some of the repeats and organize it better so that some things only need to be written once. I also did not add any sort of feedback for users, I neglected to add
-any hover effects, buttons, highlights, shadows, there is much left to be desired.
+with more time, I could potentially sit down and catch some of the repeats and organize it better so that some things only need to be written once. I also did not add any sort of engagement in the UI for users, 
+I neglected to add any hover effects, buttons, highlights, shadows, there is much left to be desired.
 
 ## Lessons Learned
 I learned more about flex-box and different aspects I can use on the containers as well as the children inside. I also discovered short cuts when creating elements in html, for example, 'ul#coolStuff>li*5' will give you 
