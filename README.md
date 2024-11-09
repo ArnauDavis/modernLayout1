@@ -14,6 +14,7 @@ carefully structured to provide an efficient, organized, and aesthetically pleas
 ## How It's Made: 
 
 **Tech used:** HTML & CSS
+
 I used the whiteboard technique and inspiration from other projects I've seen to create a static page, no content, just the template. I got to practice using flexbox and seeing different circumstances 
 to use features such as gap, justify-content, align-content, as well as flex-direction and the effect it can have on the previously mentioned attributes. When I was building the html it was so much easier to use a 
 whiteboard to draw a rough draft and then sort everything in boxes and then boxes inside of those boxes to really visualize structure. This envisionment allowed for me to think about the CSS I would need
